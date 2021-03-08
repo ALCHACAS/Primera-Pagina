@@ -1,0 +1,41 @@
+html {  /* seleccionamos la etiqueta html */ 
+    font-size: 10px; /* definir el tamaño de un componente */
+    font-family: 'Open Sans', sans-serif; /* definir la fuente de la letra */
+  }
+  h1 {/* le definimos un tamaño a la etiqueta y la centramos */
+    font-size: 60px;
+    text-align: center; /* Centramos un componente en una línea */
+  }
+  
+  p, li { /* se pueden seleccionar varias etiquetas a la vez */
+    font-size: 16px;
+    line-height: 3; /* espaciado entre líneas */
+    letter-spacing: 1px; /* espaciado entre letras */
+  }
+  
+  
+  html { /* color de fondo */
+    background-color: #ff0000; 
+  }
+  
+  body { 
+    width: 800px; /* vamos a definir el ancho del body */
+    margin: 0 auto; /* definimos los márgenes en 0 */
+    background-color: #96fd8d;
+    padding: 0 20px 20px 20px; /* definimos el tamaño del padding */
+    border: 5px solid black; /* definir un borde negro y con grosor de 5 pixeles */
+  }
+  
+  h1 { /* definimos margenes, color y sombras en la etiqueta */
+    margin: 0;
+    padding: 20px 0;
+    color: #0400ff;
+    text-shadow: 3px 3px 1px black; /* agregar sombras a las letras */
+  }
+  
+  img { /* posicionamos la imagen y le damos tamaño */
+    display: block; /* posicionamos en bloque */
+    margin: 20 auto;
+    height: 30%; /* largo de la imagen */
+    width: 10%; /* ancho de la imagen */
+  }
